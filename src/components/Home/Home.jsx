@@ -32,12 +32,13 @@ export default function () {
 
         <div className="fadout"></div>
       </section>
-      <section className="p-10 lg:py-10 lg:px-20">
-        <p className="text-2xl font-semibold text-gray-400 py-3 pb-10">
-          Top Meals
-        </p>
-        <MultiItemCarousel />
-      </section>
+      <section className="p-5 sm:p-8 md:p-10 lg:py-10 lg:px-20">
+  <p className="text-xl sm:text-2xl font-semibold text-gray-400 py-3 pb-5 sm:pb-10">
+    Top Meals
+  </p>
+  <MultiItemCarousel />
+</section>
+
 
       <section className="px-5 lg:px-20 pt-5">
         <h1 className="text-2xl font-semibold text-gray-400 pb-10">
